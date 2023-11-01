@@ -42,6 +42,7 @@ export default function Board(){
     setRefresh(true);
     setWinner("");
     setTurn("X");
+    setGameState([["", "", ""],["", "", ""],["", "", ""]]);
     console.log(refresh);
   }
   function onPress(value){
